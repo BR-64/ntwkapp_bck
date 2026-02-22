@@ -1,0 +1,128 @@
+const people = [
+  {
+    name: 'Sskeonwk',
+    name_th: 'สมชาย รักดี',
+    project: 'Green Tech Initiative',
+    location: 'Thailand',
+    email: 'somchai.r@outlook.com',
+    tags: [
+      { label: 'Sustainability' },
+      { label: 'Solar Energy' },
+      { label: 'Environment' },
+    ],
+  },
+  {
+    name: 'Somchai Rakdee',
+    name_th: 'สมชาย รักดี',
+    project: 'Green Tech Initiative',
+    location: 'Thailand',
+    email: 'somchai.r@outlook.com',
+    tags: [
+      { label: 'Sustainability' },
+      { label: 'Solar Energy' },
+      { label: 'Environment' },
+    ],
+  },
+  {
+    name: 'Maria Santos',
+    name_th: 'มาเรีย ซานโตส',
+    project: 'Digital Literacy Hub',
+    location: 'Philippines',
+    email: 'm.santos@gmail.com',
+    tags: [
+      { label: 'Education' },
+      { label: 'Community' },
+      { label: 'Literacy' },
+    ],
+  },
+  {
+    name: 'Nguyen Van Minh',
+    name_th: 'เหงียน วัน มินห์',
+    project: 'Smart City Saigon',
+    location: 'Vietnam',
+    email: 'minh.nguyen@company.vn',
+    tags: [
+      { label: 'Urban Planning' },
+      { label: 'IoT' },
+      { label: 'Technology' },
+    ],
+  },
+  {
+    name: 'Lina Wijaya',
+    name_th: 'ลินา วิชยา',
+    project: 'Fintech for Farmers',
+    location: 'Indonesia',
+    email: 'lina.w@startup.id',
+    tags: [{ label: 'Finance' }, { label: 'AgriTech' }, { label: 'Inclusion' }],
+  },
+  {
+    name: 'Somsak Siriporn',
+    name_th: 'สมศักดิ์ ศิริพร',
+    project: 'Bangkok Health App',
+    location: 'Thailand',
+    email: 'somsak.s@health.go.th',
+    tags: [
+      { label: 'Healthcare' },
+      { label: 'Mobile Dev' },
+      { label: 'Public Health' },
+    ],
+  },
+  {
+    name: 'Tan Wei Ling',
+    name_th: 'ตัน เว่ย หลิง',
+    project: 'Blue Ocean Research',
+    location: 'Singapore',
+    email: 'weiling.tan@nus.edu.sg',
+    tags: [
+      { label: 'Marine Biology' },
+      { label: 'Conservation' },
+      { label: 'Data Analysis' },
+    ],
+  },
+  {
+    name: 'Aung Kyaw Moe',
+    name_th: 'ออง จอ โม',
+    project: 'Rural Connectivity',
+    location: 'Myanmar',
+    email: 'ak.moe@connect.mm',
+    tags: [
+      { label: 'Telecom' },
+      { label: 'Infrastructure' },
+      { label: 'Broadband' },
+    ],
+  },
+  {
+    name: 'Srey Roth',
+    name_th: 'สเรย รส',
+    project: 'Artisan Marketplace',
+    location: 'Cambodia',
+    email: 'srey.roth@khmerart.org',
+    tags: [
+      { label: 'E-commerce' },
+      { label: 'Culture' },
+      { label: 'Handicraft' },
+    ],
+  },
+  {
+    name: 'Khamla Phomvihane',
+    name_th: 'คำลา พรหมวิหาร',
+    project: 'Hydro Energy Watch',
+    location: 'Laos',
+    email: 'khamla.p@laosenergy.gov',
+    tags: [{ label: 'Energy' }, { label: 'Policy' }, { label: 'Monitoring' }],
+  },
+  {
+    name: 'Nadia Rahman',
+    name_th: 'นาเดีย ราห์มาน',
+    project: 'Women in STEM Asia',
+    location: 'Malaysia',
+    email: 'nadia.r@stem.my',
+    tags: [
+      { label: 'Education' },
+      { label: 'Gender Equality' },
+      { label: 'Technology' },
+    ],
+  },
+];
+
+module.exports = people;
