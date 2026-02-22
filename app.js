@@ -7,7 +7,6 @@ const rateLimit = require('express-rate-limit');
 const { errorHandler, notFound } = require('./middleware/errorHandler');
 const userRoutes = require('./routes/userRoutes');
 const peopleRoutes = require('./routes/peopleRoutes');
-const { authenticate } = require('./middleware/auth');
 
 const app = express();
 
@@ -41,7 +40,7 @@ app.get('/health', (req, res) => {
 });
 
 // ── Routes ────────────────────────────────────────────────────────
-app.use('/api/v1/users', authenticate, userRoutes);
+app.use('/api/v1/users', userRoutes);
 app.use('/api/people', peopleRoutes);
 
 // ── Error Handling ────────────────────────────────────────────────
